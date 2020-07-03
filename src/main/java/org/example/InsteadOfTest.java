@@ -5,6 +5,7 @@ public class InsteadOfTest {
     record Person(String name, int age){}
 
     public static void main(String[] args) {
+        // 
         var p1 = new Person("minssogi", 29);
 
         if(p1 instanceof Person p2) {
